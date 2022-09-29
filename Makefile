@@ -13,3 +13,6 @@ venv-activate: ## ativa a virtualenv
 
 install: ## instala dependências na venv
 	.venv/bin/pip install -r requirements.txt
+
+jupyter:  ## inicia o jupyter notebook
+	.venv/bin/jupyter-notebook
